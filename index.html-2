@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>情報学特講2023秋学期プロジェクト課題</title>
+<link rel="stylesheet" href="mystyle.css">
+
+<script src="ex07-11.js"></script>
+  
+</head>
+  
+<body>
+  
+<h1>練習問題7-11</h1>
+<p>西暦年：<input type="text" id="yearInput"></p>
+<input type="button" value="判定" onclick="determineLeapYear();">
+<p id="result2"></p>
+
+
+</body>
+</html>
+
+ 
