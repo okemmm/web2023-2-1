@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプルページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ウェブサイトのタイトル</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">セクション1</a></li>
+                <li><a href="#section2">セクション2</a></li>
+                <li><a href="#section3">セクション3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>セクション1</h2>
+            <p>ここに内容を記述します。</p>
+        </section>
+
+        <section id="section2">
+            <h2>セクション2</h2>
+            <p>ここに内容を記述します。</p>
+        </section>
+
+        <section id="section3">
+            <h2>セクション3</h2>
+            <p>ここに内容を記述します。</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 あなたのウェブサイト名</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
