@@ -4,6 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background: #f8f8f8;
 }
 
 header, footer {
@@ -34,21 +35,13 @@ main {
 }
 
 .responsive-image {
-    max-width: 100%; /* ページ幅に合わせて調整 */
-    height: auto; /* アスペクト比を保持 */
-    display: block; /* ブロックレベル要素として扱う */
-    margin: 0 auto; /* 上下にマージンを設定して中央揃え */
+    max-width: 40vw; /* 画像の最大幅をビューポート幅の40%にする */
+    height: auto; /* 高さを自動調整してアスペクト比を維持 */
+    display: block; /* 画像をブロック要素として扱う */
+    margin: 10px auto; /* 上下10pxのマージンを設定し、左右のマージンは自動で中央揃え */
 }
 
 /* セクションごとのスタイリング */
 .kyoto-section, .daigoji-section {
     margin-bottom: 2em;
 }
-
-.responsive-image {
-    max-width: 40vw; /* 画像の最大幅をビューポート幅の50%にする */
-    height: auto; /* 高さを自動調整してアスペクト比を維持 */
-    display: block; /* 画像をブロック要素として扱う */
-    margin: 10px auto; /* 上下20pxのマージンを設定し、左右のマージンは自動で中央揃え */
-}
-
