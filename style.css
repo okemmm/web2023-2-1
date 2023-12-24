@@ -44,3 +44,10 @@ main {
 .kyoto-section, .daigoji-section {
     margin-bottom: 2em;
 }
+
+.responsive-image {
+    max-width: 100%; /* 画像の最大幅をページの幅に合わせる */
+    height: auto; /* 高さを自動調整してアスペクト比を維持 */
+    display: block; /* 画像をブロック要素として扱う */
+    margin: 0 auto; /* 上下のマージンは0、左右のマージンは自動で中央揃え */
+}
