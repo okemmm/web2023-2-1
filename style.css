@@ -75,3 +75,17 @@ main {
 .show {
     display: block; /* 詳細情報をブロック要素として表示 */
 }
+
+/* ナビゲーションボタンのスタイリング */
+.nav-btn {
+    padding: 10px 15px;
+    background-color: #4CAF50; /* 緑色の背景 */
+    color: white; /* 文字色を白に */
+    text-decoration: none; /* 下線を消す */
+    border-radius: 5px; /* 角を丸く */
+    transition: background-color 0.3s; /* 色の変化にアニメーションをつける */
+}
+
+.nav-btn:hover {
+    background-color: #367B35; /* ホバー時の背景色を暗く */
+}
