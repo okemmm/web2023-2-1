@@ -46,9 +46,9 @@ main {
 }
 
 .responsive-image {
-    max-width: 50vw; /* 画像の最大幅をビューポート幅の50%にする */
+    max-width: 40vw; /* 画像の最大幅をビューポート幅の50%にする */
     height: auto; /* 高さを自動調整してアスペクト比を維持 */
     display: block; /* 画像をブロック要素として扱う */
-    margin: 20px auto; /* 上下20pxのマージンを設定し、左右のマージンは自動で中央揃え */
+    margin: 10px auto; /* 上下20pxのマージンを設定し、左右のマージンは自動で中央揃え */
 }
 
