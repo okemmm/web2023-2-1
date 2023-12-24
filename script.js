@@ -9,3 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     loadTouristInfo();
 });
+
+// 詳細情報の表示切替
+function toggleDetails(elementId) {
+    var element = document.getElementById(elementId);
+    if (element) {
+        element.classList.toggle('show');
+    }
+}
