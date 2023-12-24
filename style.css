@@ -64,3 +64,29 @@ main {
 .show {
     display: block;
 }
+
+/* 詳細情報テキストのスタイリングを更新 */
+.hidden-info {
+    display: none;
+    margin-top: 15px;
+    color: #555;
+    text-align: left; /* テキストを左寄せに */
+    padding: 0 20%; /* 左右に20%のパディングを追加 */
+    box-sizing: border-box; /* パディングを幅に含める */
+}
+
+/* ボタンと詳細情報テキストのコンテナを中央揃えに */
+.kyoto-section, .daigoji-section {
+    text-align: center; /* セクション全体を中央揃えに */
+}
+
+.details-btn, .hidden-info {
+    display: inline-block; /* インラインブロック要素として扱う */
+    text-align: left; /* ボタンとテキスト内のテキストを左寄せに */
+    width: 60%; /* 幅を60%に設定 */
+    margin-top: 10px; /* 上のマージンを設定 */
+}
+
+.show {
+    display: block; /* 詳細情報をブロック要素として表示 */
+}
