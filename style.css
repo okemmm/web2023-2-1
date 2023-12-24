@@ -1,9 +1,11 @@
 /* 基本的なスタイリング */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     background: #f8f8f8;
 }
 
@@ -44,40 +46,6 @@ main {
 /* セクションごとのスタイリング */
 .kyoto-section, .daigoji-section {
     margin-bottom: 2em;
-}
-
-.details-btn {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.hidden-info {
-    display: none;
-    margin-top: 15px;
-    color: #555;
-}
-
-.show {
-    display: block;
-}
-
-/* 詳細情報テキストのスタイリングを更新 */
-.hidden-info {
-    display: none;
-    margin-top: 15px;
-    color: #555;
-    text-align: left; /* テキストを左寄せに */
-    padding: 0 20%; /* 左右に20%のパディングを追加 */
-    box-sizing: border-box; /* パディングを幅に含める */
-}
-
-/* セクションごとのスタイリング */
-.kyoto-section, .daigoji-section {
-    margin-bottom: 2em;
     text-align: center; /* セクション全体を中央揃えに */
 }
 
@@ -90,7 +58,7 @@ main {
     border-radius: 5px;
     cursor: pointer;
     display: inline-block; /* インラインブロック要素として扱う */
-    width: 60%; /* 幅を60%に設定 */
+    width: auto; /* 幅を内容に合わせる */
     margin-top: 10px; /* 上のマージンを設定 */
 }
 
