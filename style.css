@@ -30,21 +30,17 @@ nav ul li a {
 
 main {
     padding: 20px;
+    text-align: center; /* 中央揃え */
 }
 
-/* その他のスタイリング */
-
-img.kyoto-city-woman {
-    width: 300px;
-    height: 400px;
+.responsive-image {
+    max-width: 100%; /* ページ幅に合わせて調整 */
+    height: auto; /* アスペクト比を保持 */
+    display: block; /* ブロックレベル要素として扱う */
+    margin: 0 auto; /* 上下にマージンを設定して中央揃え */
 }
 
-img.kyoto-japan {
-    width: 300px;
-    height: 400px;
-}
-
-img.daigoji-temple {
-    width: 300px;
-    height: 400px;
+/* セクションごとのスタイリング */
+.kyoto-section, .daigoji-section {
+    margin-bottom: 2em;
 }
