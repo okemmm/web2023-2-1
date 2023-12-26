@@ -89,3 +89,9 @@ main {
 .nav-btn:hover {
     background-color: #367B35; /* ホバー時の背景色を暗く */
 }
+
+nav span {
+    color: white;
+    margin-right: 20px;
+    vertical-align: middle;
+}
