@@ -95,3 +95,16 @@ nav span {
     margin-right: 20px;
     vertical-align: middle;
 }
+
+header {
+    display: flex; /* headerの中身を横並びにする */
+    align-items: center; /* 中央揃えにする */
+    justify-content: flex-start; /* 左側から始める */
+}
+
+.branding {
+    color: white; /* 文字色を白に */
+    margin-right: 20px; /* ナビゲーションとの間隔を設定 */
+    /* 必要に応じてフォントサイズや他のスタイリングを追加 */
+}
+
