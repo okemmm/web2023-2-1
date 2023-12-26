@@ -102,8 +102,30 @@ header {
     justify-content: flex-start; /* 左側から始める */
 }
 
-.branding {
-    color: white; /* 文字色を白に */
-    margin-right: 20px; /* ナビゲーションとの間隔を設定 */
+nav {
+    display: flex; /* navの中身を横並びにする */
+    justify-content: space-between; /* アイテムを均等に分散 */
+    align-items: center; /* アイテムを中央揃えに */
 }
 
+.branding {
+    color: white; /* 文字色を白に */
+    /* 必要に応じてフォントサイズや他のスタイリングを追加 */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex; /* リストアイテムを横並びに */
+    justify-content: center; /* リストアイテムを中央揃えに */
+    list-style: none; /* リストのスタイルをなしに */
+}
+
+nav ul li {
+    margin: 0 10px; /* リストアイテム間の余白 */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
