@@ -41,20 +41,18 @@
 
 <!-- Watson Assistant チャットボット埋め込みコード -->
 <script>
-   window.watsonAssistantChatOptions = {
-      integrationID: "3634f387-8211-4a34-9c32-a1a92e6ab90b", // The ID of this integration.
-      region: "au-syd", // The region your integration is hosted in.
-      serviceInstanceID: "e7d5b8a6-fdc9-4c78-8d54-1061ef1b0188", // The ID of your service instance.
-      onLoad: async (instance) => { await instance.render(); }
-   };
-   setTimeout(function(){
-      const t = document.createElement('script');
-      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + 
-              (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-      document.head.appendChild(t);
-   }, 100); // 待ち時間100ミリ秒を追加
+  window.watsonAssistantChatOptions = {
+    integrationID: "55f54df6-4a79-4261-8c15-a4f31beb236e", // The ID of this integration.
+    region: "jp-tok", // The region your integration is hosted in.
+    serviceInstanceID: "cfdd7306-85bb-4e7c-a133-a566d15c3827", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
 </script>
-
 </body>
 </html>
 
